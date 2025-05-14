@@ -1,0 +1,38 @@
+i{
+    cursor: pointer;
+}
+
+.cursor-pointer{
+   cursor:pointer;
+}
+body{
+    background-color: #0D0D0D;
+}
+.links li {
+  transition: all 0.5s ease;
+}
+.nav{
+    max-width: 322px;
+    flex-wrap: nowrap;
+   transition: all 0.5s ease; 
+    background-color: #0D0D0D;
+
+}
+
+.cat-layer {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: all 0.5s;
+}
+.cat:hover .cat-layer{
+    top:0;
+}
+.inner-loading-screen {
+    position: absolute;
+    z-index: 999;
+    background-color: #0D0D0D;
+    display: flex
+;
+}
